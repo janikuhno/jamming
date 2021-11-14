@@ -1,7 +1,7 @@
 import config from './.config.js';
 
 const clientID = config.clientID;
-const redirectUri = 'http://ignorant-creator.surge.sh';
+const redirectUri = 'http://localhost:3000';
 let accessToken;
 
 const Spotify = {
